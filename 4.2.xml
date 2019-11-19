@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<domestic_appliances>
+    <type>
+        <typename>Washmachine</typename>
+        <brand>
+            <name>Bosch</name>
+            <catalog>
+                <product>
+                    <model>superPower123</model>
+                    <size>big</size>
+                    <price>1200$</price>
+                </product>
+                <product>
+                    <model>super777</model>
+                    <size>medium</size>
+                    <price>900$</price>
+                </product>
+                <product>
+                    <model>forall</model>
+                    <size>small</size>
+                    <price>700</price>
+                </product>
+            </catalog>
+        </brand>
+
+        <brand>
+            <name>Samsung</name>
+            <catalog>
+                <product>
+                    <model>GalaxyWash</model>
+                    <size>big</size>
+                    <price>1000$</price>
+                </product>
+                <product>
+                    <model>star777</model>
+                    <size>small</size>
+                    <price>650$</price>
+                </product>
+            </catalog>
+        </brand>
+
+        <typename>oven</typename>
+        <brand>
+            <name>Bork</name>
+            <catalog>
+                <product>
+                    <model>yummy</model>
+                    <size>big</size>
+                    <price>1500$</price>
+                </product>
+                <product>
+                    <model>BIGcooker</model>
+                    <size>big</size>
+                    <price>1700$</price>
+                </product>
+
+            </catalog>
+        </brand>
+
+        <brand>
+            <name>Bosch</name>
+            <catalog>
+                <product>
+                    <model>for4</model>
+                    <size>small</size>
+                    <price>650$</price>
+                </product>
+                <product>
+                    <model>superturbo</model>
+                    <size>big</size>
+                    <price>1650$</price>
+                </product>
+            </catalog>
+        </brand>
+    </type>
+
+
+
+</domestic_appliances>
