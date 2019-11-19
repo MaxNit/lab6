@@ -8,6 +8,7 @@
                 <product>
                     <model>superPower123</model>
                     <size>big</size>
+
                     <price>1200$</price>
                 </product>
                 <product>
@@ -76,4 +77,6 @@
 
 
 
+
 </domestic_appliances>
+
