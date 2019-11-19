@@ -17,7 +17,7 @@ public class SAX {
         SAXParser parser = factory.newSAXParser();
 
         XMLHandler handler = new XMLHandler();
-        parser.parse(new File("4.1.xml"), handler);
+        parser.parse(new File("4.xml"), handler);
 
         for (Product product:products){
             System.out.println(String.format("Type:%s\n"+"Brand:%s\n"+"Product:%s\n"+"Size:%s\n"+"Price:%s\n",
@@ -72,12 +72,12 @@ public class SAX {
         private String typename, name, model, size, price;
 
 
-        public Product(String typename, String name, String model, String size, String price) {
+        public Product(String typename, String name, String model, String s, String price) {
             this.typename = typename;
             this.name = name;
             this.model = model;
             this.price = price;
-            this.size = size;
+            this.s = s;
 
         }
         public String getTypename() {
